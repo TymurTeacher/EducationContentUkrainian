@@ -6,10 +6,10 @@
 ### @explicitHints 1
 
 
-# Program the Agent to move up to the gold plate!
+# Запрограмуйте Агента, щоб він рухався вгору до золотої платформи!
 
-## Step 1
-Use ``||player:on chat||`` and  ``||agent:agent move||`` commands to program the Agent to move towards the gold plate. You can program the Agent to move **up**. When done, press the **Play** button to compile the code. Go to Minecraft to run your code in game.
+## Крок 1
+Використовуйте команди ``||player:on chat||`` та ``||agent:agent move||``, щоб запрограмувати Агента рухатися до золотої платформи. Ви можете запрограмувати Агента, щоб він рухався **вгору**. Коли закінчите, натисніть кнопку **Play**, щоб скомпілювати код. Перейдіть до Minecraft і запустіть ваш код у грі.
 
 
 
