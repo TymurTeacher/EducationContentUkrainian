@@ -3,8 +3,9 @@
 ```python
 player.say
 ```
-## Introduction @unplugged
-Congratulations, you have finished the lesson!
+## Вступ @unplugged
+Вітаємо, ви закінчили урок!
 
-## Step 1 
-Congratulations, you have finished the lesson!
+## Крок 1 
+Вітаємо, ви закінчили урок!
+

@@ -3,8 +3,8 @@
 ```python
 player.say
 ```
-## Introduction @unplugged
-    No coding is needed now, please go back to the map by exiting the coding window.
+## Вступ @unplugged
+    Кодування більше не потрібно, будь ласка, поверніться на карту, вийшовши з вікна кодування.
 
-## Step 1 
-    No coding is needed now, please go back to the map by exiting the coding window.
+## Крок 1 
+    Кодування більше не потрібно, будь ласка, поверніться на карту, вийшовши з вікна кодування.
