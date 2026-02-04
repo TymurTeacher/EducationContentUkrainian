@@ -1,13 +1,12 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Activity 1 - Place the correct block.
+# Завдання 1 - Розмістіть правильний блок.
 
 ```python
 blocks.place(GRASS_BLOCK, pos(0, 0, 0))
 ```
 
-## Step 1
-Place the **grass** and **brick** blocks in the designated areas by using the `||blocks: place block at position||` command. Change the first parameter to the required block type 
-using the code completion tool to select the required block by starting to type its name and selecting the correct option.
+## Крок 1
+Розмістіть блоки **трави** та **цегли** у відведених місцях, використовуючи команду `||blocks: place block at position||`. Змініть перший параметр на потрібний тип блоку, використовуючи інструмент автодоповнення коду, щоб вибрати потрібний блок, почавши вводити його назву та вибравши правильний варіант.
 ### ~ tutorialhint 
-If a block is placed incorrectly use the try again button, to clear and restart the activity, by talking to the NPC. 
+Якщо блок розміщено неправильно, скористайтеся кнопкою "Спробувати знову", щоб очистити та перезапустити завдання, поговоривши з NPC.
