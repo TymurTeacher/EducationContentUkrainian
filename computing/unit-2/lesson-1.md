@@ -97,3 +97,6 @@ player.onChat("road_2", function () {
 
 ## Step 7
 (Extension) With two roads done, build more using the code you have just created. When you are finished, go to the Unit 2 Lesson 1 NPC and ask for some carpet to make road markings with using your agent to place them.
+``` blocks
+agent.place()
+```
