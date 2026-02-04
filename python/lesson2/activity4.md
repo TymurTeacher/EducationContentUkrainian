@@ -1,13 +1,12 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Activity 4 - Getting across.
+# Завдання 4 - Перетнути на той бік.
 
 ```python
 blocks.place(GRASS_BLOCK, pos(0, 0, 0))
 ```
 
-## Step 1
-Write some code to construct a line of floor made out of five **plank oak** blocks to get over to the other side. You will need to change the **first** and **second** coordinate of the **second**
-parameter in the `||blocks: place block at position||` commands. You must make sure that you build at floor height.
+## Крок 1
+Напишіть код для побудови лінії підлоги з п'яти блоків **дубових дощок**, щоб перейти на інший бік. Вам потрібно буде змінити **першу** та **другу** координату **другого** параметра в командах `||blocks: place block at position||`. Ви повинні переконатися, що будуєте на рівні підлоги.
 ### ~ tutorialhint 
-Try using negative numbers as the coordinates.
+Спробуйте використовувати від'ємні числа як координати.
