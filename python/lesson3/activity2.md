@@ -3,19 +3,19 @@
 
 ### @explicitHints true
 ### @hideIteration true 
-# Activity 2 - Ideal planting spot.
+# Завдання 2 - Ідеальне місце для посадки.
 
 ```python
 blocks.place()
 ```
-# Activity 2 - Ideal planting spot.
+# Завдання 2 - Ідеальне місце для посадки.
 
-## Step 1
-Look at each of the **5** different location variables and see what crops are at these coordinates. Then create
-**5** `||blocks: place block at position||` commands ,with either **PUMPKIN** or **MELON_BLOCK**, at the correct location variable 
-to match the crop at the coordinate. To see the coordinates and coding window at same time, click on the half coding window button in the top left-hand corner. 
+## Крок 1
+Подивіться на кожну з **5** різних змінних розташування та побачте, які культури знаходяться за цими координатами. Потім створіть
+**5** команд `||blocks: place block at position||` з **PUMPKIN** або **MELON_BLOCK** у правильній змінній розташування,
+щоб відповідати культурі за координатою. Щоб бачити координати та вікно кодування одночасно, натисніть кнопку половинного вікна кодування у верхньому лівому куті. 
 ### ~ tutorialhint
-blocks.place(**crop type**, **location variable**)
+blocks.place(**тип культури**, **змінна розташування**)
 
 
 ```template
