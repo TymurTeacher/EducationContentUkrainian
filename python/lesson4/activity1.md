@@ -1,6 +1,6 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Activity 1 - Animal categorizing.
+# Завдання 1 - Категоризація тварин.
 
 ```python
 blocks.place()
@@ -8,13 +8,13 @@ mobs.spawn()
 world(0, 0, 0)
 ```
 
-## Step 1
-Write some code with a list, named **My_list**, of the animals going from **left** to **right** in the Minecraft world. 
-Place **4** more `||mobs:spawn mob at position||` commands after the one that's already given. Use the information from the signs 
-on the pens to complete these commands. 
+## Крок 1
+Напишіть код зі списком, названим **My_list**, з тваринами зліва направо у світі Minecraft. 
+Розмістіть ще **4** команди `||mobs:spawn mob at position||` після тієї, що вже дана. Використовуйте інформацію з табличок 
+на загонах для заповнення цих команд. 
 
 ### ~ tutorialhint 
-Remember that list positions start from zero. 
+Пам'ятайте, що позиції у списку починаються з нуля. 
 
 ```template 
 location1 = world(-2, 40, -11)
