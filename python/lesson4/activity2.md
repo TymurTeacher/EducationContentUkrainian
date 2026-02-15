@@ -1,31 +1,31 @@
 ### @explicitHints true
 
-# Activity 2 - Dietary requirement.
+# Завдання 2 - Дієтичні вимоги.
 
 ```python
 blocks.place()
 ```
 
-## Step 1
-Give the **first** dog everything that's already in the predefined list by changing the values of the first **4** `||blocks:place block at position||`
-commands. So that they each place, in order, one of the items in the list. Then give the food from the chest to dog number one.
+## Крок 1
+Дайте **першому** собаці все, що вже є у попередньо визначеному списку, змінивши значення перших **4** команд `||blocks:place block at position||`.
+Щоб кожна з них розмістила по порядку один з елементів списку. Потім дайте їжу зі скрині собаці номер один.
 
 ### ~ tutorialhint 
-To drop items from the hot bar press the [**Q**] key on your keyboard. 
+Щоб скинути предмети з панелі швидкого доступу, натисніть клавішу [**Q**] на клавіатурі. 
 
-## Step 2
-Give the **second** dog everything that's already in the list with additonal vitamins added. 
-Do this by using the **append** method to add the variable **Vitamins** to the end of the list.
-Then change the value of the last `||blocks: place block at position||` command so that it places the vitamins in the machine, and 
-then give the food to dog number two.
+## Крок 2
+Дайте **другому** собаці все, що вже є у списку, з додатковими вітамінами. 
+Зробіть це, використовуючи метод **append**, щоб додати змінну **Vitamins** в кінець списку.
+Потім змініть значення останньої команди `||blocks: place block at position||`, щоб вона розмістила вітаміни в машині, і 
+потім дайте їжу собаці номер два.
 
-## Step 3
-Give the **third** dog everything that's already in the list but with no **beef**. 
-Do this by using the **pop** method to remove the variable **Beef** from the list.
-Then give the food to dog number three.
+## Крок 3
+Дайте **третьому** собаці все, що вже є у списку, але без **beef**. 
+Зробіть це, використовуючи метод **pop**, щоб видалити змінну **Beef** зі списку.
+Потім дайте їжу собаці номер три.
 
 ### ~ tutorialhint 
-With the **pop** method you must use the list position value and **not** its name. 
+З методом **pop** ви повинні використовувати значення позиції у списку, а **не** його назву. 
 
 ```template
 Bone = world(-21, 45, -31)
