@@ -1,6 +1,6 @@
 {
     "name": "educationcontent",
-    "version": "8.0.2",
+    "version": "0.0.9",
     "dependencies": {
         "core": "*",
         "builder": "*"
