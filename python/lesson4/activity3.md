@@ -1,30 +1,30 @@
 ### @explicitHints true
 
-# Activity 3 - What is the cats name?
+# Завдання 3 - Як звати кота?
 
 ```python
 player.say("hi")
 ```
 
-## Step 1
-Set the last name in the list of cat names to now equal the string **Shadow**. 
-Change the value inside the `||player:say||` command so that it displays the **last** name in the list. 
-Then press the **select a cat** button and choose the cat shown in the chat.   
+## Крок 1
+Встановіть останнє ім'я у списку імен котів рівним рядку **Shadow**. 
+Змініть значення всередині команди `||player:say||`, щоб воно показувало **останнє** ім'я у списку. 
+Потім натисніть кнопку **вибрати кота** та оберіть кота, показаного у чаті.   
 ### ~ tutorialhint 
-To change a value in a list use: List_Name[positional value] = "New Cat Name" .
+Щоб змінити значення у списку, використовуйте: List_Name[значення позиції] = "Нове Ім'я Кота" .
 
-## Step 2
-Sort the list of cat names alphabetically using the **sort** method. 
-Then change the value inside the `||player:say||` command so that it displays the **fourth** name in the list.   
-Don't forget, lists count from 0, so the 4th item won't be `Cat_Names[4]`.    
-Then press the **select a cat** button and choose the cat shown in the chat.   
+## Крок 2
+Відсортуйте список імен котів за алфавітом, використовуючи метод **sort**. 
+Потім змініть значення всередині команди `||player:say||`, щоб воно показувало **четверте** ім'я у списку.   
+Не забувайте, списки рахуються з 0, тому 4-й елемент не буде `Cat_Names[4]`.    
+Потім натисніть кнопку **вибрати кота** та оберіть кота, показаного у чаті.   
 ### ~ tutorialhint 
-Remember that list positions start from zero. 
+Пам'ятайте, що позиції у списку починаються з нуля. 
 
-## Step 3
-Reverse the list of cat names using the **reverse** method. 
-Keep the same value inside the `||player:say||` command.
-Then press the **select a cat** button and choose the cat shown in the chat.   
+## Крок 3
+Оберніть список імен котів, використовуючи метод **reverse**. 
+Залиште те саме значення всередині команди `||player:say||`.
+Потім натисніть кнопку **вибрати кота** та оберіть кота, показаного у чаті.   
 
 ```template
 Cat_Names= ["Smokey", "Oreo", "Sammy", "Patch", "Princess", "Snowy"]
