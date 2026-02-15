@@ -4,16 +4,16 @@
 .
 ```
 
-# Activity 1 - Sorting things out. 
+# Завдання 1 - Сортуємо речі. 
 
-## Step 1
-Create **two** new variables called **b** and **c**. The value of **b** should be **melon** and the value of **c** should be **apple**. 
+## Крок 1
+Створіть **дві** нові змінні з назвами **b** та **c**. Значення **b** повинно бути **melon**, а значення **c** повинно бути **apple**. 
 ### ~ tutorialhint
-Remember to use quotes with strings.
+Не забувайте використовувати лапки з рядками.
  
-## Step 2
-Look at the monitor on the wall and change the fruit variable value to match the sequence. 
-Run the code and press the matching fruit buttons in the same sequence as in the chat, untill all of the lights turn on. 
+## Крок 2
+Подивіться на монітор на стіні та змініть значення змінної fruit, щоб воно відповідало послідовності. 
+Запустіть код і натискайте відповідні кнопки фруктів у тій самій послідовності, що й у чаті, поки всі вогні не увімкнуться. 
 
 ```template
 //Replace the lines below with your code #
