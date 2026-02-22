@@ -1,5 +1,5 @@
 ### @explicitHints true
-# Activity 1 -  Too heavy!
+# Завдання 1 - Занадто важко!
 
 ```python
 for i in range(2):
@@ -9,11 +9,11 @@ agent.move(FORWARD, 5)
 agent.place(FORWARD)
 ```
 
-## Step 1
-**Part 1:** Write some code so that the Agent will pick up the box and move **6** blocks **forward** and then place it **forward**.
+## Крок 1
+**Частина 1:** Напишіть код, щоб Агент підняв коробку, перемістився на **6** блоків **вперед** і потім розмістив її **вперед**.
 
-## Step 2
-**Part 2:** Edit the same code so that the Agent goes back to the starting point. It needs to do the same thing but **4** times. Use a `||loops: for||` loop at the beginning. 
-The boxes will be automatically stacked. 
+## Крок 2
+**Частина 2:** Відредагуйте той самий код, щоб Агент повернувся до початкової точки. Потрібно зробити те саме, але **4** рази. Використовуйте цикл `||loops: for||` на початку.
+Коробки будуть автоматично складатися одна на одну.
 ### ~ tutorialhint 
-Don't forget to indent everything after the loop using the **tab** key on the keyboard.
+Не забудьте зробити відступ для всього після циклу за допомогою клавіші **Tab** на клавіатурі.
