@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 1 -  Stop and go.
+# Завдання 1 - Стій і йди.
 
 ```python
 loops.pause(2000)
@@ -12,22 +12,22 @@ if True:
 agent.detect(AgentDetection.BLOCK, FORWARD)
 ```
 
-## Step 1
-**Part 1:** Write some code so that the Agent will only move when there **is** a block on its left side. 
-Use a `||agent: agent detect||` command for the condition: 
+## Крок 1
+**Частина 1:** Напишіть код, щоб Агент рухався лише тоді, коли **є** блок з його лівого боку.
+Використовуйте команду `||agent: agent detect||` як умову:
 ```python
 agent.detect(AgentDetection.BLOCK, LEFT)
 ```
 
-## Step 2
-**Part 2:** Edit the code so that the Agent moves when there **no** block to its left. 
-Do this by adding a **not** operator before the condition. 
+## Крок 2
+**Частина 2:** Відредагуйте код так, щоб Агент рухався, коли блоку зліва **немає**.
+Зробіть це, додавши оператор **not** перед умовою.
 
-## Step 3
-**Part 3:** Make the Agent move again after the `||loops:pause||` command to reach the last gold block.
+## Крок 3
+**Частина 3:** Змусьте Агента рухатись знову після команди `||loops:pause||`, щоб досягти останнього золотого блоку.
 
 ### ~ tutorialhint
-**1000** ms is **1** second.
+**1000** мс — це **1** секунда.
 
 ```template
 //Replace the lines below with your code #    
