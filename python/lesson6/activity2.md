@@ -1,6 +1,6 @@
 ### @explicitHints true
  
-# Activity 2 -  Is it left, or right? 
+# Завдання 2 - Ліворуч чи праворуч?
 
 ```python
 agent.inspect(AgentInspection.BLOCK, FORWARD)
@@ -12,23 +12,23 @@ if True:
       pass
 ```
 
-## Step 1
-**Part 1:** Write some code, using an `||logic:if else||` conditional, to make the Agent turn left when it reaches the sign and
-then move forward onto the gold block. Use an `||agent:agent inspect||` command as the condition and compare it to the variable **left**.
-The `||agent:agent inspect||` command looks like: 
+## Крок 1
+**Частина 1:** Напишіть код, використовуючи умову `||logic:if else||`, щоб Агент повертав ліворуч, коли досягає знаку, і
+потім рухався вперед на золотий блок. Використовуйте команду `||agent:agent inspect||` як умову та порівняйте її зі змінною **left**.
+Команда `||agent:agent inspect||` виглядає так:
 ```python
 agent.inspect(AgentInspection.BLOCK, FORWARD)
 ```
-Use the variables already provided in your code: left = BLUE_GLAZED_TERRACOTTA, right = PINK_GLAZED_TERRACOTTA
+Використовуйте змінні, вже надані у вашому коді: left = BLUE_GLAZED_TERRACOTTA, right = PINK_GLAZED_TERRACOTTA
 ### ~ tutorialhint 
-To check if two values are equal, use **==**.
+Щоб перевірити, чи рівні два значення, використовуйте **==**.
 
-## Step 2
-**Part 2:** Edit the code so that the Agent turns in both directions until it reaches the gold block. Do this by adding an **elif**
-conditional in between the **if** and **else** parts.
+## Крок 2
+**Частина 2:** Відредагуйте код так, щоб Агент повертав в обидва боки, поки не досягне золотого блоку. Зробіть це, додавши умову **elif**
+між частинами **if** та **else**.
 ### ~ tutorialhint 
-Use the **elif** conditional with an `||agent:agent inspect||` command
-as the condition and compare it to the variable **right**.
+Використовуйте умову **elif** з командою `||agent:agent inspect||`
+як умову та порівняйте її зі змінною **right**.
 
 ```template
 left = BLUE_GLAZED_TERRACOTTA
