@@ -1,5 +1,5 @@
 ### @explicitHints true
-# Activity 3 - Cleaning up.
+# Завдання 3 - Прибирання.
 
 ```python
 for i in range(2):
@@ -9,16 +9,15 @@ agent.move(FORWARD, 5)
 agent.drop_all(FORWARD)
 ```
 
-## Step 1
-**Part 1:** Write some code so that the Agent will go over every block of the small carpet and pick up the dirt.
+## Крок 1
+**Частина 1:** Напишіть код, щоб Агент пройшов над кожним блоком маленького килиму та підібрав бруд.
 ### ~ tutorialhint 
-Don't forget that, in this case, two loops should not have the same variable name.
+Не забувайте, що в цьому випадку два цикли не повинні мати однакову назву змінної.
 
-## Step 2
-**Part 2:** Edit the same code so that the Agent does the same thing but for the larger carpet. Do this by repeating the code **3** times,
-using a `||loops:for||` loop. At the end try to make the Agent drop all of the dirt in the trash to its **right**. 
+## Крок 2
+**Частина 2:** Відредагуйте той самий код, щоб Агент зробив те саме, але для більшого килиму. Зробіть це, повторивши код **3** рази за допомогою циклу `||loops:for||`. Наприкінці спробуйте змусити Агента скинути весь бруд у смітник праворуч від нього.
 ### ~ tutorialhint 
-Remember that you will need to use double indentation in your code.
+Пам'ятайте, що вам потрібно буде використовувати подвійний відступ у своєму коді.
 
 ```template
 //Replace the lines below with your code #    
