@@ -1,5 +1,5 @@
 ### @explicitHints true
-# Activity 2 - Spin cycle.
+# Завдання 2 - Цикл прання.
 
 ```python
 for i in range(2):
@@ -11,17 +11,15 @@ agent.turn(LEFT)
 
 ```
 
-## Step 1
-**Part 1:** Write some code so that the Agent will pick up the dirty laundry, move **forward** into the machine, spin left **20** times and then get out of
-the machine to place the clean laundry on the other side of where the dirty laundry was.
+## Крок 1
+**Частина 1:** Напишіть код, щоб Агент підняв брудну білизну, перемістився **вперед** у машину, повернув ліворуч **20** разів, а потім вийшов з машини та поклав чисту білизну з іншого боку від того місця, де лежала брудна.
 
-## Step 2
-**Part 2:** Edit the same code so that the Agent does the same thing but for **3** loads of laundry. Do this by using a `||loops: for||` loop before all of the other 
-code.
+## Крок 2
+**Частина 2:** Відредагуйте той самий код, щоб Агент зробив те саме, але для **3** завантажень білизни. Зробіть це, використовуючи цикл `||loops: for||` перед усім іншим кодом.
 
 ### ~ tutorialhint 
-Don't forget that, in this case, two loops should not have the same variable name, so rename the second loop. 
-To indent a large piece of code highlight all the code you want to indent and press the **tab** key. 
+Не забувайте, що в цьому випадку два цикли не повинні мати однакову назву змінної, тому перейменуйте другий цикл.
+Щоб зробити відступ для великого фрагменту коду, виділіть увесь код, який потрібно відступити, і натисніть клавішу **Tab**.
 
 ```template
 //Replace the lines below with your code #    
