@@ -1,6 +1,6 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Activity 2 - Firebreak. 
+# Завдання 2 - Вогнезахисна смуга. 
 
 ```python
 agent.turn(LEFT_TURN)
@@ -11,21 +11,21 @@ while True:
       pass
 ```
 
-## Step 1
-Write some code to make the Agent move forward when there is Redstone dust in front of it.
-While moving forward the Agent should make a one-block high wall to its left.
-When it encounters a change in terrain height the Agent needs to move up and continue the wall.
+## Крок 1
+Напиши код, який змусить Агента рухатися вперед, коли попереду нього є порошок Червоного каменю.
+Під час руху вперед Агент має будувати стіну заввишки один блок ліворуч від себе.
+Коли Агент зустрічає зміну висоти місцевості, він має піднятися вгору і продовжити будівництво стіни.
 
 ```template
-//Replace the lines below with your code #
-//While loop 1 with an Agent detect Redstone condition 
-//While loop 2 with an Agent detect block condition 
+//Заміни рядки нижче своїм кодом #
+//Цикл while 1 з умовою виявлення Агентом порошку Червоного каменю 
+//Цикл while 2 з умовою виявлення Агентом блока 
 agent.place(LEFT)
-//Make the Agent move up                            
-//Make the Agent place a block to its left         
-//Make the Agent move forward
-//End of while loop 2
-//Make the Agent place a block to its left         
-//Make the Agent move forward
-//End while loop 1                         
+//Змусь Агента піднятися вгору                      
+//Змусь Агента розмістити блок ліворуч від себе         
+//Змусь Агента рухатися вперед
+//Кінець циклу while 2
+//Змусь Агента розмістити блок ліворуч від себе         
+//Змусь Агента рухатися вперед
+//Кінець циклу while 1                         
 ```
