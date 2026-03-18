@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 1 - Water barrier. 
+# Завдання 1 - Водний бар'єр. 
 
 ```python
 agent.turn(LEFT_TURN)
@@ -11,20 +11,20 @@ while True:
       pass
 ```
 
-## Step 1
-**Part 1:** Write some code to make the Agent move forward when there is Redstone dust in front of it. 
+## Крок 1
+**Частина 1:** Напиши код, який змусить Агента рухатися вперед, коли попереду нього є порошок Червоного каменю. 
 
-## Step 2 
-**Part 2:** Add a sequence to the code so that the Agent places a two-block high wall to its right as it moves. 
+## Крок 2 
+**Частина 2:** Додай до коду послідовність, щоб Агент розміщував стіну заввишки два блоки праворуч від себе під час руху. 
 ### ~ tutorialhint
-You do not have to give the Agent any blocks, it already has the required blocks in its inventory.  
+Не потрібно давати Агенту блоки — необхідні блоки вже є в його інвентарі.  
 ```template
-//Replace the lines below with your code #     
-//While loop with an Agent detect condition |Part 1
-//Make the Agent place a block to its right         |Part 2
-//Make the Agent move up                            |Part 2
-//Make the Agent place a block to its right         |Part 2
-//Make the Agent move back down                     |Part 2:
+//Заміни рядки нижче своїм кодом #     
+//Цикл while з умовою виявлення Агентом             |Частина 1
+//Змусь Агента розмістити блок праворуч від себе    |Частина 2
+//Змусь Агента піднятися вгору                      |Частина 2
+//Змусь Агента розмістити блок праворуч від себе    |Частина 2
+//Змусь Агента спуститися вниз                      |Частина 2:
     agent.move(FORWARD, 1)
-//End of while loop                                
+//Кінець циклу while                                
 ```
