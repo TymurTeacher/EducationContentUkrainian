@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 3 - Home reconstruction. 
+# Завдання 3 - Відновлення будинків. 
 
 ```python
 agent.turn(LEFT_TURN)
@@ -11,32 +11,31 @@ while True:
       pass
 ```
 
-## Step 1
-**Part 1:** Write some code to make the Agent follow the guideline of Redstone dust and place blocks to its left to make the small house's foundation.
-Use **two** `||loops:while||` loops with **two** sequences, one for the straight sections and one for the outside corners. 
+## Крок 1
+**Частина 1:** Напиши код, щоб Агент слідував по направляючій лінії з порошку Червоного каменю та розміщував блоки ліворуч від себе для закладення фундаменту невеликого будинку.
+Використай **два** цикли `||loops:while||` із **двома** послідовностями: одну для прямих ділянок і одну для зовнішніх кутів. 
 
-## Step 2 
-**Part 2:** Add to the code to make the Agent build the foundation of a larger house. Write a additional `||loops:while||` loop with 
-an additional sequences for the inside corners.  
+## Крок 2 
+**Частина 2:** Доповни код, щоб Агент побудував фундамент більшого будинку. Напиши додатковий цикл `||loops:while||` із додатковою послідовністю для внутрішніх кутів.  
 ### ~ tutorialhint 
-When writing the sequence for the inside corners it needs to include a part where 
-the Agent needs to move one block beyond the outline to place a block, and then move back. 
+Під час написання послідовності для внутрішніх кутів потрібно передбачити частину, де 
+Агент має переміститися на один блок за межі контуру, щоб розмістити блок, а потім повернутися назад. 
 
 ```template
-//Replace the lines below with your code #    
-//While loop 1 with an Agent detect condition |Part 1
-//Make the Agent place a block to its left    |Part 1       
-//Make the Agent move forward                 |Part 1 
-//While loop 2 with an Agent detect condition |Part 1
+//Заміни рядки нижче своїм кодом #    
+//Цикл while 1 з умовою виявлення Агентом         |Частина 1
+//Змусь Агента розмістити блок ліворуч від себе   |Частина 1       
+//Змусь Агента рухатися вперед                    |Частина 1 
+//Цикл while 2 з умовою виявлення Агентом         |Частина 1
 agent.turn(LEFT_TURN)
-//Make the Agent move forward                 |Part 1
-//End of while loop 2
-//While loop 3 with an Agent detect condition         |Part 2
-//Make the Agent place a block to its left            |Part 2        
-//Make the Agent move forward                         |Part 2
-//Make the Agent place a block to its left            |Part 2        
-//Make the Agent move back                            |Part 2
-//Make the Agent turn right                           |Part 2                 
-//End of while loop 3
-//End of while loop 1                        
+//Змусь Агента рухатися вперед                    |Частина 1
+//Кінець циклу while 2
+//Цикл while 3 з умовою виявлення Агентом                 |Частина 2
+//Змусь Агента розмістити блок ліворуч від себе           |Частина 2        
+//Змусь Агента рухатися вперед                            |Частина 2
+//Змусь Агента розмістити блок ліворуч від себе           |Частина 2        
+//Змусь Агента рухатися назад                             |Частина 2
+//Змусь Агента повернутися праворуч                       |Частина 2                 
+//Кінець циклу while 3
+//Кінець циклу while 1                        
 ```
