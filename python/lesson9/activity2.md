@@ -1,13 +1,13 @@
 ### @explicitHints true
-### @hideIteration true 
-# Blinding lights. 
+### @hideIteration true
+# Засліплюючі вогні.
 
 ```python
 agent.move(FORWARD, 5)
 pos(0, 0, 0)
 player.say("Finished")
 agent.place(LEFT)
-agent.inspect(AgentInspection.BLOCK, DOWN) 
+agent.inspect(AgentInspection.BLOCK, DOWN)
 agent.turn(RIGHT_TURN)
 agent.destroy(BACK)
 agent.drop_all(FORWARD)
@@ -15,9 +15,9 @@ agent.collect_all()
 loops.pause(500)
 for i in range(10):
     pass
-if True: 
+if True:
     pass
-else: 
+else:
     pass
 elif:
     pass
@@ -25,9 +25,9 @@ while True:
     pass
 ```
 
-## Step 1
-Make the Agent place the Redstone lamps on top of the Redstone blocks lights while walking forwards on the walkway.
+## Крок 1
+Змуси Агента розміщувати лампи з червоного каменю на блоки з червоним каменем під час руху вперед по доріжці.
 
 ### ~ tutorialhint
-The Agent already have all of the required blocks in its inventory.
+В інвентарі Агента вже є всі необхідні блоки.
 

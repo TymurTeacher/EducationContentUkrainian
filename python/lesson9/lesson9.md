@@ -1,5 +1,5 @@
 ### @explicitHints true
-# Agent Invader  
+# Агент-загарбник
 
 ```python
 pos(0, 0, 0)
@@ -14,9 +14,9 @@ agent.get_position()
 gameplay.title(mobs.target(NEAREST_PLAYER), "Congratulations!", "You won!")
 mobs.target(NEAREST_PLAYER)
 player.say("HI")
-if True: 
+if True:
     pass
-else: 
+else:
     pass
 elif:
     pass
@@ -24,75 +24,72 @@ while True:
     pass
 ```
 
-## Step 1
-**Activity 1 - Game controls:**
-There are two 'buttons' on the controller, blue is to make the Agent move left and red is to make the Agent move right. Write some code 
-so that when you stand on the red or blue blocks the Agent moves in the correct direction. Use the test for block command below, to check if a block 
-is in a certain position:
+## Крок 1
+**Завдання 1 - Керування грою:**
+На контролері є дві "кнопки": синя — щоб Агент рухався ліворуч, червона — щоб рухався праворуч. Напиши код так, щоб коли ти стоїш на червоному або синьому блоці, Агент рухався у правильному напрямку. Використай команду перевірки блоку нижче, щоб перевірити чи знаходиться блок у певній позиції:
 ```python
 blocks.test_for_block(BLOCK_NAME, pos(0, 0, 0))
 ```
 
 ### ~ tutorialhint
-A `||loops:while||` loop with the condition set to **True** will repeat continuously. Do **not** delete any pregiven code in the coding window.
+Цикл `||loops:while||` з умовою **True** буде повторюватися безперервно. **Не** видаляй жоден заздалегідь наданий код у вікні кодування.
 
-## Step 2
-**Activity 2 - Firing system -**
-**Part 1:** Write another function to make the Agent shoot the gold blocks above it.
-Use a `||mobs: mob spawn||` command with **FIREWORKS_ROCKET** to shoot. Each gold block shot needs to be replaced with an **AIR** block, to make it disappear.
-Use an `||agent: agent position||` command to get the Agent's position.
-Use an add positions command with an `||agent: agent position||` command inside, to get the position of the **AIR** block. 
-The two commands together look like:
-```python 
+## Крок 2
+**Завдання 2 - Система стрільби -**
+**Частина 1:** Напиши ще одну функцію, щоб Агент стріляв по золотих блоках над собою.
+Використай команду `||mobs: mob spawn||` з **FIREWORKS_ROCKET** для стрільби. Кожен підбитий золотий блок потрібно замінити на блок **AIR**, щоб він зник.
+Використай команду `||agent: agent position||`, щоб отримати позицію Агента.
+Використай команду додавання позицій разом із командою `||agent: agent position||` всередині, щоб отримати позицію блоку **AIR**.
+Дві команди разом виглядають так:
+```python
 positions.add(agent.get_position(), pos(0, 0, 0))
 ```
-## Step 3
-**Part 2:** Add to the code to make the Agent shoot at the second row of gold blocks, using an additional `||logic: elif||`
-conditional. 
+## Крок 3
+**Частина 2:** Додай до коду, щоб Агент стріляв по другому ряду золотих блоків, використовуючи додаткову умову `||logic: elif||`.
 
-## Step 4
-**Activity 3 - Scoring system:**
-In the code you have been given a variable named `||variables:score||`, add **1** to the variable each time the Agent shoots a gold block.
-Edit the condition in the while loop, so that it only loops when `||variables:score||` is less than or equal to **15**. 
-Add two splash screens at the start and the end of the game using the `||gameplay:show title||` command. Declare the `||variable:score||` variable
-as global, using the command:
+## Крок 4
+**Завдання 3 - Система підрахунку очок:**
+У наданому коді є змінна `||variables:score||` — додавай **1** до цієї змінної щоразу, коли Агент підбиває золотий блок.
+Відредагуй умову у циклі while так, щоб він повторювався лише тоді, коли `||variables:score||` менше або рівне **15**.
+Додай дві заставки на початку та в кінці гри за допомогою команди `||gameplay:show title||`. Оголоси змінну `||variable:score||`
+як глобальну за допомогою команди:
 ```
-global score 
+global score
 ```
 
 ### ~ tutorialhint
-**<=** means **less than or equal to**.
+**<=** означає **менше або рівне**.
 
 
 ```template
-//Replace with your functions below #
-//Declare function 2                                                          |Act. 2 Part 1
-//Declare score variable as global                                                           |Act. 3      
-//If conditional, test for block condition, Agent pos + 2                     |Act. 2 Part 1
-//Spawn firework rockets at Agent position                                    |Act. 2 Part 1
-//Pause for 100ms                                                             |Act. 2 Part 1
-//Place AIR block at Agent pos + 2                                            |Act. 2 Part 1
-//Add 1 to the variable score                                                                |Act. 3
-//Elif conditional, test for block condition, Agent pos + 3                   |Act. 2 Part 2
-//Spawn firework rockets at Agent position                                    |Act. 2 Part 2
-//Pause for 100ms                                                             |Act. 2 Part 2
-//Place AIR block at Agent pos + 3                                            |Act. 2 Part 2
-//Add 1 to the variable score                                                                |Act. 3
-//Replace with comment about function below                           |Act. 1      
-//Declare function                                                    |Act. 1
-//If conditional with test for block condition (LIGHT_BLUE_CONCRETE)  |Act. 1
-//Make the Agent move right                                           |Act. 1
-//Elif conditional with test for block condition (RED_CONCRETE)       |Act. 1
-//Make the Agent move left                                            |Act. 1
-//Replace the lines below with your code #  
+//Розмісти свої функції нижче #
+//Оголоси функцію 2                                                            |Зав. 2 Ч. 1
+//Оголоси змінну score як глобальну                                                            |Зав. 3
+//Умова if, перевірка блоку, позиція Агента + 2                                |Зав. 2 Ч. 1
+//Породи феєрверк на позиції Агента                                            |Зав. 2 Ч. 1
+//Пауза 100мс                                                                  |Зав. 2 Ч. 1
+//Розміщуй блок AIR на позиції Агента + 2                                      |Зав. 2 Ч. 1
+//Додай 1 до змінної score                                                                     |Зав. 3
+//Умова elif, перевірка блоку, позиція Агента + 3                              |Зав. 2 Ч. 2
+//Породи феєрверк на позиції Агента                                            |Зав. 2 Ч. 2
+//Пауза 100мс                                                                  |Зав. 2 Ч. 2
+//Розміщуй блок AIR на позиції Агента + 3                                      |Зав. 2 Ч. 2
+//Додай 1 до змінної score                                                                     |Зав. 3
+//Замінити коментарем про функцію нижче                                |Зав. 1
+//Оголоси функцію                                                      |Зав. 1
+//Умова if з перевіркою блоку (LIGHT_BLUE_CONCRETE)                    |Зав. 1
+//Змуси Агента рухатися праворуч                                       |Зав. 1
+//Умова elif з перевіркою блоку (RED_CONCRETE)                         |Зав. 1
+//Змуси Агента рухатися ліворуч                                        |Зав. 1
+//Замінити рядки нижче своїм кодом #
 score = 0
-//Add a start splash screen using the gameplay title command                                 |Act. 3
-//Change while loop to only loop when score is <= 15                                         |Act. 3
-//While loop with True as condition                                   |Act. 1
-//Call function                                                       |Act. 1
-//Call function 2                                                             |Act. 2 Part 1
-//Add a end splash screen using the gameplay title command                                   |Act. 3
-//Spawn lighting bolt on Agent position                                                      |Act. 3  
+//Додай початкову заставку за допомогою команди gameplay title                                 |Зав. 3
+//Змінити цикл while так, щоб він повторювався лише коли score <= 15                           |Зав. 3
+//Цикл while з умовою True                                             |Зав. 1
+//Виклич функцію                                                       |Зав. 1
+//Виклич функцію 2                                                             |Зав. 2 Ч. 1
+//Додай кінцеву заставку за допомогою команди gameplay title                                   |Зав. 3
+//Породи блискавку на позиції Агента                                                           |Зав. 3
 if score > 15
 player.execute("scoreboard players set @p score 15")
 ```
