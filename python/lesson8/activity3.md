@@ -1,61 +1,61 @@
 ### @explicitHints true
 
-# Activity 3 - Pasture of trees. 
+# Завдання 3 - Пасовище дерев.
 
 ```python
 agent.turn(RIGHT_TURN)
 agent.place(RIGHT)
 agent.move(FORWARD, 5)
-agent.inspect(AgentInspection.BLOCK, FORWARD) 
+agent.inspect(AgentInspection.BLOCK, FORWARD)
 agent.till(BACK)
 for i in range(4):
       pass
-if True: 
+if True:
     pass
-else: 
+else:
     pass
 elif:
     pass
 ```
 
-## Step 1
-**Part 1:** Write three new functions with different sequences, one to make the Agent **move forward**, one to **turn left**, and one to **turn right**. 
-Then use these functions in a `||loops:for||` loop to make the Agent pass over every block in the area, row by row, until it reaches the gold block.
+## Крок 1
+**Частина 1:** Напиши три нові функції з різними послідовностями: одну, щоб Агент **рухався вперед**, одну, щоб **повернув ліворуч**, і одну, щоб **повернув праворуч**.
+Потім використай ці функції у циклі `||loops:for||`, щоб Агент обійшов кожен блок у зоні, ряд за рядом, доки не досягне золотого блоку.
 
-## Step 2 
-**Part 2:** Add to the code to make the Agent till the grass blocks that it passes over and plant a sapling.
-Do this by adding an `||logic:if else||` conditional, that inspects for grass blocks, in the function that moves the Agent forward. 
+## Крок 2
+**Частина 2:** Додай до коду, щоб Агент скопував блоки трави, які він проходить, і висадив саджанець.
+Зроби це, додавши умовну конструкцію `||logic:if else||`, яка перевіряє наявність блоків трави, у функцію, що переміщує Агента вперед.
 
 ```template
-//Place your functions below #  
-//Add to the comment below, as it has now changed             |Part 2
-//Replace with comment about function below           |Part 1    
-//Declare function 1                                  |Part 1
-//For loop 1 set to 9                                 |Part 1
-//If else conditional with Agent inspect condition            |Part 2
-//Add function that plants saplings                           |Part 2
-//Place the command below in the else part of the conditional |Part 2
-//Make the Agent move forward                         |Part 1
-//End of loop 1
-//Replace with comment about function below           |Part 1    
-//Declare function 2                                  |Part 1
-//Make the Agent turn right                           |Part 1
-//Make the Agent move forward                         |Part 1
-//Make the Agent turn right                           |Part 1
-//Replace with comment about function below           |Part 1    
-//Declare function 3                                  |Part 1
-//Make the Agent turn left                            |Part 1
+//Розмісти свої функції нижче #
+//Доповни коментар нижче, оскільки він змінився                |Частина 2
+//Замінити коментарем про функцію нижче                |Частина 1
+//Оголоси функцію 1                                    |Частина 1
+//Цикл for 1 зі значенням 9                            |Частина 1
+//Умова if else з перевіркою Агента                            |Частина 2
+//Додай функцію, що садить саджанці                           |Частина 2
+//Помісти команду нижче у частину else умовної конструкції    |Частина 2
+//Змуси Агента рухатися вперед                         |Частина 1
+//Кінець циклу 1
+//Замінити коментарем про функцію нижче                |Частина 1
+//Оголоси функцію 2                                    |Частина 1
+//Змуси Агента повернути праворуч                      |Частина 1
+//Змуси Агента рухатися вперед                         |Частина 1
+//Змуси Агента повернути праворуч                      |Частина 1
+//Замінити коментарем про функцію нижче                |Частина 1
+//Оголоси функцію 3                                    |Частина 1
+//Змуси Агента повернути ліворуч                       |Частина 1
     agent.move(FORWARD, 1)
-//Make the Agent turn left                            |Part 1
-//Replace with comment about function below                   |Part 2 
-//Declare function 4                                          |Part 2
-//Make the Agent move forward                                 |Part 2
-//Make the till back                                          |Part 2
-//Make the place back                                         |Part 2
-//Replace the lines below with your code #
-//For loop 2 set to 4                                 |Part 1
-//Call function to make Agent move forward            |Part 1
-//Call function to make Agent turn right              |Part 1
-//Call function to make Agent move forward            |Part 1
-//Call function to make Agent turn left               |Part 1                       
+//Змуси Агента повернути ліворуч                       |Частина 1
+//Замінити коментарем про функцію нижче                        |Частина 2
+//Оголоси функцію 4                                            |Частина 2
+//Змуси Агента рухатися вперед                                 |Частина 2
+//Змуси скопати позаду                                         |Частина 2
+//Змуси покласти позаду                                        |Частина 2
+//Замінити рядки нижче своїм кодом #
+//Цикл for 2 зі значенням 4                            |Частина 1
+//Виклич функцію, щоб Агент рухався вперед             |Частина 1
+//Виклич функцію, щоб Агент повернув праворуч          |Частина 1
+//Виклич функцію, щоб Агент рухався вперед             |Частина 1
+//Виклич функцію, щоб Агент повернув ліворуч           |Частина 1
 ```

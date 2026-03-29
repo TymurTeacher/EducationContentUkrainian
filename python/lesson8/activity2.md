@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 2 - Breaking boulders.
+# Завдання 2 - Ламаємо валуни.
 
 ```python
 agent.destroy(FORWARD)
@@ -12,43 +12,43 @@ for i in range(4):
       pass
 if agent.inspect(AgentInspection.BLOCK, FORWARD) == GRASS:
     pass
-else: 
+else:
     pass
 ```
 
-## Step 1
-**Part 1:** Write some code to make the Agent move forward while breaking and collecting each **stone** block in its way.
+## Крок 1
+**Частина 1:** Напиши код, щоб Агент рухався вперед, розбиваючи та збираючи кожен блок **каменю** на своєму шляху.
 ### ~ tutorialhint
-Agent inspect condition command structure:  
+Структура команди умови перевірки Агента:
 ```python
 agent.inspect(AgentInspection.BLOCK, DIRECTION) == BLOCK_TYPE
 ```
 
-## Step 2 
-**Part 2:** Add to the code to now make the Agent till and plant saplings on the **grass** blocks.  
+## Крок 2
+**Частина 2:** Додай до коду, щоб Агент також скопував ґрунт і висаджував саджанці на блоках **трави**.
 ### ~ tutorialhint
-Agent inspect condition command structure:  
+Структура команди умови перевірки Агента:
 ```python
 agent.inspect(AgentInspection.BLOCK, DIRECTION) == BLOCK_TYPE
 ```
 
 ```template
-//Place your functions below #
-//Replace with comment about function below                  |Part 1   
-//Declare function 1                                         |Part 1
-//Make the Agent destroy the block forward                   |Part 1
+//Розмісти свої функції нижче #
+//Замінити коментарем про функцію нижче                    |Частина 1
+//Оголоси функцію 1                                        |Частина 1
+//Змуси Агента зруйнувати блок попереду                    |Частина 1
     agent.move(FORWARD, 1)
-//Replace with comment about function below                          |Part 2   
-//Declare function 2                                                 |Part 2
-//Make the Agent move forward                                        |Part 2
-//Make the Agent till back                                           |Part 2
-//Make the Agent place back                                          |Part 2
-//Replace the lines below with your code #  
-//For loop set to 12                                         |Part 1
-//If else conditional with Agent inspect condition for STONE |Part 1
-//Call function for removing rocks                           |Part 1
-//Elif conditional with Agent inspect condition for GRASS            |Part 2            
-//Call function for planting trees                                   |Part 2
-//Else part of if else conditional                           |Part 1
-//Make the Agent move forward                                |Part 1          
+//Замінити коментарем про функцію нижче                            |Частина 2
+//Оголоси функцію 2                                                |Частина 2
+//Змуси Агента рухатися вперед                                     |Частина 2
+//Змуси Агента скопати позаду                                      |Частина 2
+//Змуси Агента покласти позаду                                     |Частина 2
+//Замінити рядки нижче своїм кодом #
+//Цикл for зі значенням 12                                 |Частина 1
+//Умова if else з перевіркою Агента для STONE              |Частина 1
+//Виклич функцію для видалення каміння                     |Частина 1
+//Умова elif з перевіркою Агента для GRASS                         |Частина 2
+//Виклич функцію для посадки дерев                                 |Частина 2
+//Частина else умови if else                               |Частина 1
+//Змуси Агента рухатися вперед                             |Частина 1
 ```
