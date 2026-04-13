@@ -1,14 +1,14 @@
 ### @explicitHints true
-### @hideIteration true 
+### @hideIteration true
 
-# Spring arrival
+# Прихід весни
 
 ```python
 agent.move(FORWARD, 5)
 pos(0, 0, 0)
 player.say("Finished")
 agent.place(LEFT)
-agent.inspect(AgentInspection.BLOCK, DOWN) 
+agent.inspect(AgentInspection.BLOCK, DOWN)
 agent.turn(RIGHT_TURN)
 agent.destroy(BACK)
 agent.drop_all(FORWARD)
@@ -16,9 +16,9 @@ agent.collect_all()
 loops.pause(500)
 for index in range(10):
     pass
-if True: 
+if True:
     pass
-else: 
+else:
     pass
 elif:
     pass
@@ -26,10 +26,10 @@ while True:
     pass
 ```
 
-## Step 1
-In the coding window you have a been given a code that does not work. Delete the quotes (**'**) from the begining and end of each line. 
-This code is supposed to plant flowers on each block of grass by making the Agent move through the area row by row.
-Can you finish the code by adding a conditional and debugging the main loop?
+## Крок 1
+У вікні кодування тобі надано код, який не працює. Видали лапки (**'**) з початку та кінця кожного рядка.
+Цей код повинен садити квіти на кожен блок трави, переміщуючи Агента через зону ряд за рядом.
+Чи можеш ти завершити код, додавши умовну конструкцію та налагодивши головний цикл?
 ```template
 'for index in range(4):'
 '   for index2 in range(8):'

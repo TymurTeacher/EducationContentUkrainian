@@ -1,13 +1,13 @@
 ### @explicitHints true
-### @hideIteration true 
-# Row by row.
+### @hideIteration true
+# Ряд за рядом.
 
 ```python
 agent.move(FORWARD, 5)
 pos(0, 0, 0)
 player.say("Finished")
 agent.place(LEFT)
-agent.inspect(AgentInspection.BLOCK, DOWN) 
+agent.inspect(AgentInspection.BLOCK, DOWN)
 agent.turn(RIGHT_TURN)
 agent.destroy(BACK)
 agent.drop_all(FORWARD)
@@ -15,9 +15,9 @@ agent.collect_all()
 loops.pause(500)
 for i in range(10):
     pass
-if True: 
+if True:
     pass
-else: 
+else:
     pass
 elif:
     pass
@@ -25,5 +25,5 @@ while True:
     pass
 ```
 
-## Step 1
-Can you make the Agent move over every block in the area sideways, row by row, without it turning? 
+## Крок 1
+Чи можеш ти змусити Агента пройти над кожним блоком у зоні боком, ряд за рядом, не повертаючись?

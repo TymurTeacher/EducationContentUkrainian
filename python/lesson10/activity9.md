@@ -1,13 +1,13 @@
 ### @explicitHints true
-### @hideIteration true 
-# The Agent labyrinth.
+### @hideIteration true
+# Лабіринт Агента.
 
 ```python
 agent.move(FORWARD, 5)
 pos(0, 0, 0)
 player.say("Finished")
 agent.place(LEFT)
-agent.inspect(AgentInspection.BLOCK, DOWN) 
+agent.inspect(AgentInspection.BLOCK, DOWN)
 agent.turn(RIGHT_TURN)
 agent.destroy(BACK)
 agent.drop_all(FORWARD)
@@ -15,9 +15,9 @@ agent.collect_all()
 loops.pause(500)
 for i in range(10):
     pass
-if True: 
+if True:
     pass
-else: 
+else:
     pass
 elif:
     pass
@@ -25,9 +25,9 @@ while True:
     pass
 ```
 
-## Step 1
-Navigate the Agent through the maze. Write some code to use the colored blocks as forward, left, and right control directions for the Agent to move in.
-Then control the Agent to the end of the maze by standing on the colored blocks. 
+## Крок 1
+Проведи Агента через лабіринт. Напиши код, щоб використовувати кольорові блоки як напрямки керування — вперед, ліворуч і праворуч — для руху Агента.
+Потім керуй Агентом до виходу з лабіринту, стоячи на кольорових блоках.
 
 ### ~ tutorialhint
-Try using a endlessly repeating while loop.
+Спробуй використати нескінченний цикл while.

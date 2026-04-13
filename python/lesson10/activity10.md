@@ -1,14 +1,14 @@
 ### @explicitHints true
-### @hideIteration true 
+### @hideIteration true
 
-# Do I need to list it out? 
+# Чи потрібно мені це перелічити?
 
 ```python
 agent.move(FORWARD, 5)
 pos(0, 0, 0)
 player.say("Finished")
 agent.place(LEFT)
-agent.inspect(AgentInspection.BLOCK, DOWN) 
+agent.inspect(AgentInspection.BLOCK, DOWN)
 agent.turn(RIGHT_TURN)
 agent.destroy(BACK)
 agent.drop_all(FORWARD)
@@ -16,9 +16,9 @@ agent.collect_all()
 loops.pause(500)
 for i in range(10):
     pass
-if True: 
+if True:
     pass
-else: 
+else:
     pass
 elif:
     pass
@@ -26,11 +26,10 @@ while True:
     pass
 ```
 
-## Step 1
-You have been given a list. Delete the quotes (**'**) from the begining and end of each line. To find what block type the Agent should stand on, **sort** the list alphabetically
-and get the **second** block from the list. Stand on the correct block type and press the button to teleport the Agent there. 
-To find what block type your player should stand on **reverse**  the list and **pop** the **fourth** block in the list. 
-Get the **sixth** block from the list and stand on that block. 
+## Крок 1
+Тобі надано список. Видали лапки (**'**) з початку та кінця кожного рядка. Щоб дізнатися, на якому типі блоку повинен стояти Агент, **відсортуй** список за алфавітом і візьми **другий** блок зі списку. Стань на правильний тип блоку та натисни кнопку, щоб телепортувати Агента туди.
+Щоб дізнатися, на якому типі блоку повинен стояти твій гравець, **розгорни** список і **видали** **четвертий** блок зі списку.
+Візьми **шостий** блок зі списку і стань на цей блок.
 
 ```template
 'block_list = ["DIAMOND", "ICE", "EMERALD", "STONE", "WOOD", "GOLD", "QUARTZ"]'
